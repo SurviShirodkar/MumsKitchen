@@ -1,0 +1,307 @@
+
+ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+}
+ul li a{
+    display: block;
+    padding: 8px 25px;
+    color:black;
+    text-decoration: none;
+}
+.nav-link a{
+    color:white;
+}
+ a:hover{
+    color: rgba(189, 23, 23, 0.7);
+    transition: opacity 0.3s;
+}
+
+
+ul li ul.dropdown{
+    width: 200px;
+    padding-left: 0px;
+    font-size: 14px;
+    
+    background: #ffdfc8;
+    display:none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+    transition: 1s;
+}
+ul li ul.dropdown li{
+   display: block;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    padding: 8px 25px;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(243, 239, 239, 0.7);
+}
+.main-section{
+    background-image: linear-gradient(#1f1d1edb, #cac3c300), url(images/IMG_7309.JPG);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    max-width: 100%;
+    font-weight: 400;  
+    background-position: center;
+}
+.work-with-us-section{
+    background-image: linear-gradient(#1f1d1ed9, #cac3c300), url(images/join\ us.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    max-width: 100%;
+    font-weight: 400;  
+    background-position: center;
+}
+.cuisine-section{
+    background-image: linear-gradient(#1f1d1e6b, #cac3c300), url(images/IMG_7123\ \(1\).JPG);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    max-width: 100%;
+    font-weight: 400;  
+    background-position: center;
+}
+.ingenuity-section{
+    background-image: url(images/File_000\ \(7\).jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+    max-width: 100%;
+    font-weight: 400;  
+    background-position: center;
+   
+}
+.press-section{
+    background-image: url(images/blogs.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+   
+    max-width: 100%;
+    font-weight: 400;  
+    background-position: center;
+   
+}
+.goanwall-section{
+    background-image: linear-gradient(#1f1d1edb, #cac3c300), url(images/dining\ \(color\ 2\)\ \(1\).jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    background-position: center;
+}
+.interior-section{
+    background-image: linear-gradient(#1f1d1edb, #cac3c300), url(images/dining\ \(color\ 2\)\ \(1\).jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-width: 100%;
+    font-weight: 400;  
+    background-position: center;
+}
+.main-section1{
+    color:black;
+    max-width: 100%;
+    font-weight: 400;  
+}
+.footer-logos{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: stretch; */
+    flex-wrap: wrap;
+}
+.footer-logos img{
+  height: 100px;
+}
+.title{
+    margin-top: 150px;
+}
+.blog-body h6{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.chef-navlink{
+    color:black !important;
+}
+.chef-navlink:hover{
+    color: rgba(66, 61, 61, 0.7) !important;
+}
+.our-people-image-left{
+    max-width: 100%;
+    height: auto;
+    float: right;
+    padding-top: 35px;
+
+}
+.our-people-image-right{
+    max-width: 100%;
+    height: auto;
+    float:left;
+    padding-top: 35px;
+
+}
+.chefs-letter-right-text h6 p{
+    text-align: left;
+}
+.our-people-text-right h6{
+text-align: right;
+}
+
+.chef-para{
+    width: 70%;
+    font-size: 13px;
+    text-align: left;
+}
+.our-people-para-right{
+    width: 70%;
+    font-size: 13px;
+    letter-spacing: .08em;
+    text-align: left;
+}
+.our-people-para-left{
+    width: 70%;
+    font-size: 13px;
+    letter-spacing: .08em;
+    float: right;
+    text-align: right;
+}
+.chef-para-name{
+    float: right;
+}
+.left-ingenuity{
+    background-color: rgba(218,198,183,.85);
+    padding: 4%;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.ingenuity-links a {
+    text-decoration: none;
+    color: #b77979;
+}
+.ingenuity-links a:hover {
+    text-decoration: none;
+    color:rgba(189, 23, 23, 0.7);
+}
+.our-people-sublink{
+   margin: 0px;
+    text-align: center;
+}
+.our-people-sublink a{
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+}
+.our-people-text{
+    text-align: left;
+}
+.chefs-letter-image {
+    float: right;
+    }
+.work-with-us{
+    display: flex;
+justify-content: center;
+align-items: center;  
+}
+  
+
+/* media queries */
+@media screen and (max-width: 760px) {
+  .navbar-brand img{
+      height: 60px;
+  }
+  .footer-logos img{
+    height: 40px;
+  }
+  .footer-logos{
+    height: 100px;
+    align-content: center;
+    background-color: #ffdfc8cc;
+  }
+  .chefs-letter-image {
+  float: none;
+  }
+  .chefs-letter-image-responsive{
+      text-align: center;
+  }
+  .our-people-image-responsive{
+      text-align: center;
+  }
+  .chefs-letter-right-text{
+      padding:10px 20%; 
+  }
+  .our-people-text{
+    padding:10px 20%; 
+    
+  }
+  .chef-para {
+  width: 100%;
+  
+}
+.our-people-para-right{
+    width: 100%;
+   
+}
+.our-people-para-left{
+    width: 100%;
+}
+.our-people-image-left{
+    float: none;
+}
+.our-people-image-right{
+   float: none;
+}
+.title {
+    margin-top: 0px;
+}
+  }
+  
+  .fade-in-text {
+   
+   
+    color: black;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
